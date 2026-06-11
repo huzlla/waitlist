@@ -5,7 +5,7 @@ import Problems       from "@/components/Problems";
 import Solution       from "@/components/Solution";
 import Categories     from "@/components/Categories";
 import Trust          from "@/components/Trust";
-import Waitlist       from "@/components/Waitlist";
+import ContactCTA     from "@/components/ContactCTA";
 import Footer         from "@/components/Footer";
 import ScrollAnimations from "@/components/ScrollAnimations";
 import CursorGlow     from "@/components/CursorGlow";
@@ -28,7 +28,7 @@ export default function Home() {
         <Solution />
         <Categories />
         <Trust />
-        <Waitlist />
+        <ContactCTA />
       </main>
 
       <Footer />

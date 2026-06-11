@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Space_Mono, Ubuntu, Fraunces, Syne, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -68,8 +69,16 @@ export default function RootLayout({
         <div className="grain-overlay" aria-hidden="true" />
         {children}
         {/* Ionicons */}
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" />
-        <script noModule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" />
+        <Script
+          type="module"
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          noModule
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

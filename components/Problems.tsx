@@ -5,19 +5,19 @@ const problems = [
     icon: "shield-outline",
     num: "01",
     title: "No trust layer",
-    body: "You hire a stranger from WhatsApp. No ID check. No job history. No way to know if they'll show up — or do the job right. Informal hiring is a gamble every single time.",
+    body: "Informal hiring often happens without ID checks, work history, or clear accountability.",
   },
   {
     icon: "wallet-outline",
     num: "02",
     title: "No payment safety",
-    body: "Workers paid late — or not at all. Employers ghosted after the work is done. Cash changes hands with no paper trail, no receipt, no recourse.",
+    body: "Cash jobs leave workers and employers exposed when payment, receipts, or completion records are unclear.",
   },
   {
     icon: "flash-outline",
     num: "03",
     title: "No way to find help fast",
-    body: "Need a security guard for tonight? A cleaner by 8am? The only option is calling a chain of people who all know someone who knows someone. There is no system.",
+    body: "Urgent jobs still depend on phone chains instead of a simple system for finding available help.",
   },
 ];
 

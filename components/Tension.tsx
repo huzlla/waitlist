@@ -12,10 +12,8 @@ export default function Tension() {
         <div className="tension-stat reveal-up">
           <div className="tension-stat-line" aria-hidden="true" />
           <p className="tension-stat-text">
-            <strong>70%</strong> of Africa&apos;s workforce is informal — skilled,
-            available, and invisible to every hiring system that exists.
-            Ghana. Kenya. Nigeria. South Africa. The workers are there.
-            The platform isn&apos;t. Until now.
+            <strong>70%</strong> of Africa&apos;s workforce is informal: skilled,
+            available, and hard to hire through trusted digital systems.
           </p>
         </div>
       </div>

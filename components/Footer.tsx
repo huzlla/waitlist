@@ -9,16 +9,16 @@ export default function Footer() {
 
       <ul className="footer-links">
         <li>
-          <a href="#waitlist">Join Waitlist</a>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <a href="mailto:hello@Huzlla.co">Contact</a>
+          <Link href="/contact">Contact</Link>
         </li>
         <li>
-          <a href="#">Privacy</a>
+          <Link href="/privacy">Privacy</Link>
         </li>
         <li>
-          <a href="#">Terms</a>
+          <Link href="/terms">Terms</Link>
         </li>
       </ul>
 

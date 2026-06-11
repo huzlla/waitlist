@@ -39,8 +39,7 @@ export default function Trust() {
             <span>optional.</span>
           </h2>
           <p className="trust-body reveal-up" style={{ transitionDelay: "0.35s" }}>
-            Every worker on Huzlla is ID-verified, GPS-tracked at check-in, and rated after every job.
-            Every payment is protected by escrow until both sides confirm. Workers keep 100% of their agreed rate — always.
+            Huzlla combines verification, check-ins, ratings, and escrow so both sides can work with a clear record.
           </p>
 
           <div className="trust-pillars">
@@ -95,7 +94,7 @@ export default function Trust() {
               </div>
             </div>
             <p className="mock-escrow-note">
-              Worker pay KES 2,000 + platform fee KES 200 (10%). Releases on confirmation.
+              Worker pay KES 2,000 + platform fee KES 200. Releases on confirmation.
             </p>
           </div>
 

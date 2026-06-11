@@ -1,16 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 export default function Nav() {
   const [isDark, setIsDark] = useState(true); // hero is dark midnight by default
-  const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     // Watch the dark sections — when one intersects the nav, flip to light text
     const darkSections = document.querySelectorAll(
-      ".hero, .tension, .categories, .trust, .footer"
+      ".hero, .tension, .categories, .trust, .page-hero--dark, .legal-hero, .footer"
     );
 
     const observer = new IntersectionObserver(
@@ -39,9 +38,13 @@ export default function Nav() {
         Huzlla
         <span className="nav-dot" aria-hidden="true" />
       </Link>
-      <Link href="#waitlist" className="nav-cta">
-        Join Waitlist
-      </Link>
+      <div className="nav-links">
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
+        <Link href="/contact" className="nav-cta">
+          Get Started
+        </Link>
+      </div>
     </nav>
   );
 }

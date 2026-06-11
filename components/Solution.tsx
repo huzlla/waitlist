@@ -3,19 +3,19 @@ const steps = [
     num: "01",
     icon: "📋",
     title: "Post a job in 60 seconds",
-    body: "Set the role, location, date, and pay rate. Mark it urgent for same-day fills. Save it as a template to repost in one tap next time.",
+    body: "Set the role, location, schedule, and pay rate from one simple flow.",
   },
   {
     num: "02",
     icon: "🤝",
     title: "Match with a verified worker",
-    body: "Every applicant is ID-verified and rated by past employers. Review their profile, distance, and job history — then accept with one tap.",
+    body: "Review ID-verified profiles, ratings, location, and job history before you accept.",
   },
   {
     num: "03",
     icon: "✅",
     title: "Pay safe. Work confirmed.",
-    body: "Pay into escrow before the job starts. GPS check-in records arrival. Funds release automatically when both sides confirm — or after 24 hours if you don't dispute.",
+    body: "Escrow protects the payment while GPS check-in and confirmations record completion.",
   },
 ];
 

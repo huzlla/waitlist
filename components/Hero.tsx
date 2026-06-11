@@ -60,11 +60,11 @@ export default function Hero() {
         <div className="hero-sub-group">
           <div className="hero-pill">
             <span className="hero-pill-dot" aria-hidden="true" />
-            Africa&apos;s on-demand labour platform — verified workers, escrow-protected pay, GPS check-in. Launching across 4 markets.
+            Africa&apos;s on-demand labour platform for verified workers, safe payments, and reliable job completion.
           </div>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
-            <Link href="#waitlist" className="hero-cta">
-              Get Early Access
+            <Link href="/contact" className="hero-cta">
+              Hire Workers
             </Link>
             <a href="#solution" className="hero-cta-ghost">
               See how it works
@@ -80,7 +80,7 @@ export default function Hero() {
           <div className="hero-stat-div" aria-hidden="true" />
           <div className="hero-stat">
             <span className="hero-stat-val">4</span>
-            <span className="hero-stat-lbl">markets launching</span>
+            <span className="hero-stat-lbl">active markets</span>
           </div>
           <div className="hero-stat-div" aria-hidden="true" />
           <div className="hero-stat">
